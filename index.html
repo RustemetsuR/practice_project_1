@@ -32,10 +32,10 @@
                 <div class="header__language-switcher">
                     <p>Язык:</p>
                     <button class="header__language-switcher-button language-switcher-button-KG">
-                        <img src="./svg/KG_flag.svg">
+                        <img src="./svg/KG_flag.svg" alt="Kg flag">
                     </button>
                     <button class="header__language-switcher-button language-switcher-button-RU">
-                        <img src="./svg/RU_flag.svg">
+                        <img src="./svg/RU_flag.svg" alt="Ru flag">
                     </button>
                 </div>
             </div>
@@ -44,18 +44,28 @@
     </header>
 
     <main class="main-block">
-        <div class="main-block-inner">
-            <h1 class="main-block-title">
-                Теплосети
-            </h1>
-            <p class="main-block-description">
-                Тепло в каждый уголок нашей страны
-            </p>
-            <button class="main-block-button">
-                Подробнее о нас
-            </button>
+        <div class="container">
+            <div class="main-block__inner">
+                <div class="main-block__title-block">
+                    <h1 class="main-block__title">
+                        Теплосети
+                    </h1>
+                    <p class="main-block__description">
+                        Тепло в каждый уголок нашей страны
+                    </p>
+                    <button class="main-block__about-us-button">Подробнее о нас</button>
+                </div>
+                <div class="main-block__image-block">
+                    <img src="./imgs/smiling-happy-elecrticians.png" alt="Smiling happy elecrticians">
+                </div>
+                <button class="main-block__previous-image-button main-block__slide-buttons">
+                    <img src="./svg/slide_image_button.svg" alt="Back arrow">
+                </button>
+                <button class="main-block__next-image-button main-block__slide-buttons">
+                    <img src="./svg/slide_image_button.svg" alt="Forward arrow">
+                </button>
+            </div>
         </div>
-        <img src="./imgs/smiling-happy-elecrticians.png" alt="smiling happy elecrtician">
     </main>
 
     <section class="section">
@@ -84,7 +94,7 @@
             <div class="news-block-inner">
                 <div class="news-block-inner-element">
                     <div class="main-news-block news-info-block">
-                        <img src="./imgs/news_image_1.jpg" alt="news-1">
+                        <img class="main-news-image" src="./imgs/news_image_1.jpg" alt="news-1">
                         <div class="text-block">
                             <p class="main-news-date">08.04.03 18:34</p>
                             <h4 class="main-news-title">Встреча министра образования с учителями школы Гимназии №70
@@ -130,7 +140,7 @@
         <div class="container">
             <div class="info-main-block-inner">
                 <div class="info-blocks">
-                    <img src="./imgs/section_image_1.jpg">
+                    <img src="./imgs/section_image_1.jpg" alt="Landscape 1">
                     <div class="info-block-element">
                         <h6 class="info-block-element-title">Как мы начинали?</h6>
                         <p class="info-block-element-description">Методологический подход к экологии как к науке
@@ -143,13 +153,12 @@
                             таких систем. <br>
 
                             Главная задача прикладной экологии — </p>
-                        <a class="info-block-element-button">
-                            Подробнее о нас</a>
+                        <a class="info-block-element-button"><span>Подробнее о нас</span></a>
                     </div>
                 </div>
 
                 <div class="info-blocks info-blocks-second">
-                    <img src="./imgs/section_image_2.jpg">
+                    <img src="./imgs/section_image_2.jpg" alt="Landscape 2">
                     <div class="info-block-element">
                         <h6 class="info-block-element-title">Наша дальнейшая цель и будущее</h6>
                         <p class="info-block-element-description">Методологический подход к экологии как к науке
@@ -162,13 +171,12 @@
                             таких систем. <br>
 
                             Главная задача прикладной экологии — </p>
-                        <a class="info-block-element-button">
-                            Подробнее о нас</a>
+                        <a class="info-block-element-button"><span>Подробнее о нас</span></a>
                     </div>
                 </div>
 
                 <div class="info-blocks">
-                    <img src="./imgs/section_image_3.jpg">
+                    <img src="./imgs/section_image_3.jpg" alt="Landscape 3">
                     <div class="info-block-element">
                         <h6 class="info-block-element-title">Кто мы?</h6>
                         <p class="info-block-element-description">Методологический подход к экологии как к науке
@@ -178,8 +186,7 @@
                             функционирование таких систем.
 
                             Главная задача прикладной экологии — </p>
-                        <a class="info-block-element-button">
-                            Подробнее о нас</a>
+                        <a class="info-block-element-button"><span>Подробнее о нас</span></a>
                     </div>
                 </div>
             </div>
@@ -193,54 +200,68 @@
                 <div class="footer-left footer-elements">
                     <h6>Наши контакты</h6>
                     <div class="main-contacts-block">
-                        <div class="phone-number-block">
+                        <div class="main-contacts-block-element phone-number-block">
                             <div class="phone-number-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/phone.svg">
-                                    <p>+996 (777) 44 55 66</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="tel:+996777445566" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/phone.svg" alt="Phone icon">
+                                        <p>+996 (777) 44 55 66</p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="phone-number-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/phone.svg">
-                                    <p>+996 (777) 44 55 66</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="tel:+996777445566" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/phone.svg" alt="Phone icon">
+                                        <p>+996 (777) 44 55 66</p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="phone-number-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/phone.svg">
-                                    <p>+996 (777) 44 55 66</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="tel:+996777445566" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/phone.svg" alt="Phone icon">
+                                        <p>+996 (777) 44 55 66</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                       
-                        <div class="social-webs-block">
+
+                        <div class="main-contacts-block-element social-webs-block">
                             <div class="social-webs-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/facebook.svg">
-                                    <p>Facebook</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="https://www.facebook.com/" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/facebook.svg" alt="Facebook logo">
+                                        <p>Facebook</p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="social-webs-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/whats_up.svg">
-                                    <p>Instagram</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="https://www.instagram.com/" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/whats_up.svg" alt="Instagram logo">
+                                        <p>Instagram</p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="social-webs-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/youtube.svg">
-                                    <p>Youtube</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="https://www.youtube.com/" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/youtube.svg" alt="Youtube logo">
+                                        <p>Youtube</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        
-                        <div class="address-block">
+
+                        <div class="main-contacts-block-element address-block">
                             <div class="address-blocks contacts-block-element">
-                                <div class="contacts-block-inner-element">
-                                    <img src="./svg/localtion.svg">
-                                    <p>г.Бишкек, пр.Чуй</p>
-                                </div>
+                                <a class="contacts-block-element-link" href="https://go.2gis.com/698cv" target="_blank">
+                                    <div class="contacts-block-element-link-block">
+                                        <img src="./svg/localtion.svg" alt="Location icon">
+                                        <p>г.Бишкек, пр.Чуй</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>

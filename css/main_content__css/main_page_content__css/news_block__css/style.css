@@ -1,6 +1,6 @@
 .news-block {
     margin-top: 105px;
-    margin-bottom: 53px;
+    margin-bottom: 50px;
 }
 
 .news-block__title {
@@ -8,12 +8,14 @@
     width: 40%;
     font-size: 28px;
     color: var(--news-title-blue);
+    padding-left: 5px;
 }
 
 .news-block__inner {
     margin-top: 22px;
     display: flex;
     justify-content: space-between;
+    padding-left: 7px;
 }
 
 .news-block__element {
@@ -25,10 +27,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-left: 8px;
 }
 
 .others-news-block__element {
-    width: 49%;
+    width: 47%;
     margin-bottom: 15px;
 }
 

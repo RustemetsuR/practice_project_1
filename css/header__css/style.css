@@ -2,11 +2,6 @@
     padding: 13px 0 15px 23px;
 }
 
-.logo {
-    font-weight: 700;
-    font-size: 28px;
-}
-
 .header__inner {
     display: flex;
     align-items: center;
@@ -17,10 +12,11 @@
     font-weight: 700;
     font-size: 28px;
     color: var(--main-primary-blue);
+    padding-left: 7px;
 }
 
 .header__nav {
-    padding-right: 21.3%;
+    padding-right: 21%;
 }
 
 .header__nav-list {
@@ -61,14 +57,13 @@
 .header__language-switcher {
     display: flex;
     align-items: center;
-    margin-right: 10px;
 }
 
 .header__language-switcher p {
     font-weight: 400;
     font-size: 14px;
-    margin-right: 11px;
     color: var(--main-primary-black);
+    margin-right: 5px;
 }
 
 .header__language-switcher-button {

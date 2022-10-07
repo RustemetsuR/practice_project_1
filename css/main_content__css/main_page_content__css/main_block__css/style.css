@@ -7,15 +7,15 @@
 }
 
 .main-block__inner {
-    padding: 138px 40px 0;
+    padding: 135px 20px 0 47px;
     display: flex;
     justify-content: space-between;
 }
 
 .main-block__radio-group {
     position: absolute;
-    bottom: 4%;
-    left: 44.2%;
+    bottom: 3.5%;
+    left: 45.2%;
 }
 
 .radio {
@@ -67,7 +67,7 @@
 }
 
 .main-block__description {
-    margin-top: 23px;
+    margin-top: 25px;
     margin-bottom: 63px;
     font-size: 14px;
     font-weight: 400;
@@ -96,18 +96,18 @@
 
 .main-block__slide-buttons {
     position: absolute;
-    top: 48%;
+    top: 48.4%;
     border: 1px solid #fff;
     background: none;
     cursor: pointer;
 }
 
 .main-block__previous-image-button {
-    left: 1.2%;
+    left: 2.4%;
 }
 
 .main-block__next-image-button {
-    right: 2.5%;
+    right: 1.3%;
 }
 
 

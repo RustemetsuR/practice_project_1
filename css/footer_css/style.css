@@ -1,0 +1,124 @@
+.footer {
+    background: var(--main-primary-black);
+    padding: 56px 0 0 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+
+.footer-inner h6 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-contacts-block {
+    width: 200px;
+}
+
+.contacts-block-element-link-block {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 5px;
+}
+
+.contacts-block-element-link-block img {
+    width: 18px;
+    height: 18px;
+}
+
+.contacts-block-element-link-block p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 14px;
+}
+
+.footer-right {
+    padding-right: 12px;
+}
+
+.footer-right img {
+    width: 100%;
+}
+
+.phone-number-block {
+    border-bottom: 1px solid #262626;
+    padding-bottom: 17px;
+}
+
+.social-webs-block {
+    margin-top: 10px;
+}
+
+.social-webs-block {
+    border-bottom: 1px solid #262626;
+    padding-bottom: 15px;
+}
+
+.address-block {
+    margin-top: 13px;
+}
+
+.footer-bottom-block {
+    width: 100%;
+    height: 49px;
+    border-top: 1px solid #262626;
+}
+
+@media(max-width: 1180px) {
+    .footer-left {
+        padding-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 820px) {
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .main-contacts-block {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #262626;
+    }
+
+    .main-contacts-block-element {
+        margin-top: 0;
+        border: none;
+    }
+
+    .footer-right {
+        margin: 25px 15px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 505px){
+    .main-contacts-block {
+        flex-direction: column;
+        padding-bottom: 10px;
+        border: none;
+    }
+
+    .main-contacts-block-element {
+        margin-top: 0;
+        border-bottom: 1px solid #404040;
+    }
+
+    .address-block {
+        border: none;
+    }
+}

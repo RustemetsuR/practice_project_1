@@ -1,0 +1,27 @@
+.content {
+    padding-top: 33px;
+    margin-bottom: 93px;
+    padding-right: 300px;
+}
+
+.content__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #181818;
+}
+
+.content__description {
+    padding-top: 15px;
+   
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #7F8D97;
+}
+
+@media(max-width: 1180px) {
+    .content{
+        padding:0 25px;
+    }
+}

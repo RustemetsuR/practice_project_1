@@ -71,7 +71,7 @@
 
 .about-us__text-block .about-us-button:hover {
     background: var(--main-primary-blue);
-    color: white;
+    color: #fff;
 }
 
 .about-us-button {

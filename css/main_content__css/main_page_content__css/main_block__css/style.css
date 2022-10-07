@@ -2,7 +2,7 @@
     background: url("/imgs/main_background.jpg") no-repeat;
     background-size: cover;
     width: 100%;
-    color: white;
+    color: #fff;
     position: relative;
 }
 
@@ -54,7 +54,7 @@
 
 .radio input[type="radio"]:checked~span:after {
     transform: translate(-50%, -50%) scale(1);
-    border: 2px solid white;
+    border: 2px solid #fff;
 }
 
 .main-block__title-block {
@@ -78,7 +78,7 @@
     font-weight: 500;
     padding: 11px 40px;
     border: #ffffff solid 1px;
-    color: white;
+    color: #fff;
     letter-spacing: 0.1px;
 }
 
@@ -90,7 +90,7 @@
 
 .main-block__slide-buttons {
     border: #ffffff solid 1px;
-    color: white;
+    color: #fff;
     padding: 10px;
 }
 

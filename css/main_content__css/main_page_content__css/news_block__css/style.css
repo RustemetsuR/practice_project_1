@@ -79,7 +79,7 @@
     font-weight: 400;
 }
 
-@media(max-width: 1180px) {
+@media(max-width: 1168px) {
     .news-block__title {
         margin: 0 auto;
         text-align: center;
@@ -101,6 +101,14 @@
 
     .main-news {
         margin: 15px 0;
+    }
+
+    .others-news-block{
+        padding-left: 0;
+    }
+
+    .others-news-block__element{
+       width: 49%;
     }
 }
 

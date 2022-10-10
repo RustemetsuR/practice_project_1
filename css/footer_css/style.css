@@ -89,7 +89,7 @@
     display: inline-block;
 }
 
-@media(max-width: 1180px) {
+@media(max-width: 1168px) {
     .footer-left {
         padding-left: 25px;
         margin-right: 25px;

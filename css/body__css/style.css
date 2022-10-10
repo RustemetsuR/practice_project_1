@@ -10,17 +10,14 @@ body {
     height: 100vh;
 }
 
-:root {
-    --main-primary-blue: #0F2A59;
-    --main-primary-black: #181818;
-    --news-title-blue: #200E32;
-    --section-background-color: #F8F8F8;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --main-primary-black: #181818;
 }
 
 a {

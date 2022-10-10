@@ -1,3 +1,10 @@
+:root {
+    --main-primary-blue: #0F2A59;
+    --main-primary-black: #181818;
+    --border-nav: #E8E8E8;
+}
+
+
 .header {
     padding: 13px 0 15px 23px;
 }
@@ -16,7 +23,7 @@
 }
 
 .header__nav {
-    padding-right: 21.5%;
+    padding-right: 21%;
 }
 
 .header__nav-list {
@@ -29,8 +36,8 @@
 }
 
 .header__nav-list li:nth-child(2) {
-    border-left: 1px solid #E8E8E8;
-    border-right: 1px solid #E8E8E8;
+    border-left: 1px solid var(--border-nav);
+    border-right: 1px solid var(--border-nav);
     padding: 0 36px 0 20px;
 }
 

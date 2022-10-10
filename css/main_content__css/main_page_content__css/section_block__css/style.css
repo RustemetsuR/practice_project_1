@@ -1,5 +1,12 @@
+:root {
+    --main-primary-blue: #0F2A59;
+    --main-primary-black: #181818;
+    --section-background: #F8F8F8;
+    --section-inactive-border: #EBEBEB;
+}
+
 .section {
-    margin-top: 36px;
+    margin-top: 34px;
 }
 
 .section__inner {
@@ -17,20 +24,20 @@
 }
 
 .section__element:nth-child(1) {
-    border-left: 5px solid #EBEBEB;
-    background: url("/svg/work.svg") no-repeat, var(--section-background-color);
+    border-left: 5px solid var(--section-inactive-border);
+    background: url("/svg/work.svg") no-repeat, var(--section-background);
     background-position-x: 90%;
     background-position-y: center;
 }
 
 .section__element:nth-child(2) {
-    background: url("/svg/setting.svg") no-repeat, var(--section-background-color);
+    background: url("/svg/setting.svg") no-repeat, var(--section-background);
     background-position-x: 90%;
     background-position-y: center;
 }
 
 .section__element:nth-child(3) {
-    background: url("/svg/tick_square.svg") no-repeat, var(--section-background-color);
+    background: url("/svg/tick_square.svg") no-repeat, var(--section-background);
     background-position-x: 90%;
     background-position-y: center;
 }

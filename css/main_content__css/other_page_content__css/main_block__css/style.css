@@ -1,6 +1,12 @@
+:root {
+    --main-primary-blue: #0F2A59;
+    --main-primary-black: #181818;
+    --content-description: #7F8D97;
+}
+
 .content {
     margin-bottom: 93px;
-    padding: 33px 300px 0 7px;
+    padding: 33px 293px 0 7px;
 }
 
 .content__title {
@@ -15,7 +21,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
-    color: #7F8D97;
+    color: var(--content-description);
 }
 
 @media(max-width: 1180px) {

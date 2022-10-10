@@ -1,3 +1,7 @@
+:root {
+    --news-title-blue: #200E32;
+}
+
 .news-block {
     margin-top: 105px;
     margin-bottom: 50px;
@@ -42,7 +46,7 @@
 .news-block__text-block {
     position: absolute;
     bottom: 18px;
-    left: 7px;
+    left: 10px;
     padding-right: 5%;
     z-index: 99;
     color: #ffffff;

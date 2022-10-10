@@ -1,3 +1,8 @@
+:root {
+    --main-primary-black: #181818;
+    --contacts-border: #262626;
+}
+
 .footer {
     background: var(--main-primary-black);
     padding: 56px 0 0 0;
@@ -50,7 +55,7 @@
 }
 
 .phone-number-block {
-    border-bottom: 1px solid #262626;
+    border-bottom: 1px solid var(--contacts-border);
     padding-bottom: 17px;
 }
 
@@ -59,7 +64,7 @@
 }
 
 .social-webs-block {
-    border-bottom: 1px solid #262626;
+    border-bottom: 1px solid var(--contacts-border);
     padding-bottom: 15px;
 }
 
@@ -69,8 +74,9 @@
 
 .footer-bottom-block {
     width: 100%;
-    border-top: 1px solid #262626;
+    border-top: 1px solid var(--contacts-border);
     text-align: center;
+    height: 50px;
 }
 
 .footer-bottom-block h6 {
@@ -100,7 +106,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border-bottom: 1px solid #262626;
+        border-bottom: 1px solid var(--contacts-border);
     }
 
     .main-contacts-block-element {

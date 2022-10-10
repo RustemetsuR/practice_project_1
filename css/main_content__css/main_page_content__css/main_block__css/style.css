@@ -1,3 +1,8 @@
+:root {
+    --main-primary-blue: #0F2A59;
+    --main-primary-black: #181818;
+}
+
 .main-block {
     background: url("/imgs/main_background.jpg") no-repeat;
     background-size: cover;

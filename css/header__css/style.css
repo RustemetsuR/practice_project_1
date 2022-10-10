@@ -67,6 +67,7 @@
 
 .header__language-switcher-button {
     outline: none;
+    cursor: pointer;
     height: 24px;
     margin-left: 5px;
     background: white;

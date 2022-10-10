@@ -4,7 +4,7 @@
 }
 
 .main-block {
-    background: url("/imgs/main_background.jpg") no-repeat;
+    background: url("../../../../imgs/main_background.jpg") no-repeat;
     background-size: cover;
     width: 100%;
     color: #fff;

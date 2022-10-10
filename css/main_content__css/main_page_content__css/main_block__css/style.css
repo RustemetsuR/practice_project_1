@@ -7,7 +7,7 @@
 }
 
 .main-block__inner {
-    padding: 135px 20px 0 47px;
+    padding: 118px 20px 0 47px;
     display: flex;
     justify-content: space-between;
 }
@@ -58,7 +58,7 @@
 }
 
 .main-block__title-block {
-    padding: 95px 0 0 26px;
+    padding: 113px 0 0 28px;
 }
 
 .main-block__title {
@@ -122,6 +122,7 @@
 .main-block__image-block img {
     width: 100%;
     margin-bottom: -4px;
+    margin-top: 19px;
 }
 
 @media (max-width: 1000px) {
